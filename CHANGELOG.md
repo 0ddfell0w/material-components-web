@@ -3,6 +3,483 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/0ddfell0w/material-components-web/compare/v0.42.0...v5.0.0) (2020-02-05)
+
+
+* fix(linear-progress) support aria attributes (#5248) ([7084b40](https://github.com/0ddfell0w/material-components-web/commit/7084b40)), closes [#5248](https://github.com/0ddfell0w/material-components-web/issues/5248)
+
+
+### Bug Fixes
+
+* **auto-init:** Fixed issue with multiple default exports ([#5464](https://github.com/0ddfell0w/material-components-web/issues/5464)) ([8ddd5c6](https://github.com/0ddfell0w/material-components-web/commit/8ddd5c6))
+* **button:** Add `overflow: visible` to button. ([#4973](https://github.com/0ddfell0w/material-components-web/issues/4973)) ([905e84e](https://github.com/0ddfell0w/material-components-web/commit/905e84e))
+* **button:** Adjust touch target size when density is applied ([#5112](https://github.com/0ddfell0w/material-components-web/issues/5112)) ([e2506f4](https://github.com/0ddfell0w/material-components-web/commit/e2506f4))
+* **button:** Fix outline & ink color according to spec guidance ([#5268](https://github.com/0ddfell0w/material-components-web/issues/5268)) ([ee1a68c](https://github.com/0ddfell0w/material-components-web/commit/ee1a68c))
+* **button:** Fixed  parameter default value in height mixin ([#5244](https://github.com/0ddfell0w/material-components-web/issues/5244)) ([b0cecf1](https://github.com/0ddfell0w/material-components-web/commit/b0cecf1))
+* **button:** Update border-width to 1px ([#4606](https://github.com/0ddfell0w/material-components-web/issues/4606)) ([be8747f](https://github.com/0ddfell0w/material-components-web/commit/be8747f))
+* **card:** Use on-surface color for action icons ([#4519](https://github.com/0ddfell0w/material-components-web/issues/4519)) ([9f37016](https://github.com/0ddfell0w/material-components-web/commit/9f37016))
+* **checkbox:** change checkbox event type from change to click and add some logic for IE browser ([#5316](https://github.com/0ddfell0w/material-components-web/issues/5316)) ([2e491de](https://github.com/0ddfell0w/material-components-web/commit/2e491de)), closes [#4893](https://github.com/0ddfell0w/material-components-web/issues/4893)
+* **checkbox:** Change minimum ripple size of checkbox & switch 24px => 28px ([#5140](https://github.com/0ddfell0w/material-components-web/issues/5140)) ([3eae309](https://github.com/0ddfell0w/material-components-web/commit/3eae309))
+* **checkbox:** Disabled state colors in IE11 high contrast mode ([#5263](https://github.com/0ddfell0w/material-components-web/issues/5263)) ([d6a1d4b](https://github.com/0ddfell0w/material-components-web/commit/d6a1d4b))
+* **checkbox:** Fix checkbox terminology in sass mixins ([#5014](https://github.com/0ddfell0w/material-components-web/issues/5014)) ([2161c02](https://github.com/0ddfell0w/material-components-web/commit/2161c02))
+* **checkbox:** Fixed checkbox container fill color when animati… ([#4879](https://github.com/0ddfell0w/material-components-web/issues/4879)) ([d393fb5](https://github.com/0ddfell0w/material-components-web/commit/d393fb5))
+* **checkbox:** Fixed disabled checkbox styles for Edge browser ([#4602](https://github.com/0ddfell0w/material-components-web/issues/4602)) ([7855a6b](https://github.com/0ddfell0w/material-components-web/commit/7855a6b))
+* **checkbox:** Fixed hover focus colors for unchecked checkbox ([#4868](https://github.com/0ddfell0w/material-components-web/issues/4868)) ([1d8fbf5](https://github.com/0ddfell0w/material-components-web/commit/1d8fbf5))
+* **checkbox:** Remove RTL styles from checkbox ripple ([#5134](https://github.com/0ddfell0w/material-components-web/issues/5134)) ([a646516](https://github.com/0ddfell0w/material-components-web/commit/a646516))
+* **checkbox:** Replace unique-id with custom color hash functio… ([#5404](https://github.com/0ddfell0w/material-components-web/issues/5404)) ([7be9e4a](https://github.com/0ddfell0w/material-components-web/commit/7be9e4a))
+* **checkbox:** screenshot test golden update ([#4735](https://github.com/0ddfell0w/material-components-web/issues/4735)) ([adcf840](https://github.com/0ddfell0w/material-components-web/commit/adcf840))
+* **checkbox:** screenshot test golden update ([#4735](https://github.com/0ddfell0w/material-components-web/issues/4735)) ([0b44494](https://github.com/0ddfell0w/material-components-web/commit/0b44494))
+* **checkbox:** update disabled color values ([#5209](https://github.com/0ddfell0w/material-components-web/issues/5209)) ([821871e](https://github.com/0ddfell0w/material-components-web/commit/821871e))
+* **chips:** Add box-sizing back to chip root ([#4807](https://github.com/0ddfell0w/material-components-web/issues/4807)) ([cbee4e2](https://github.com/0ddfell0w/material-components-web/commit/cbee4e2))
+* **chips:** Add box-sizing back to chip root ([#4807](https://github.com/0ddfell0w/material-components-web/issues/4807)) ([19a19b3](https://github.com/0ddfell0w/material-components-web/commit/19a19b3))
+* **chips:** Do not throw error if chip set becomes empty ([#5290](https://github.com/0ddfell0w/material-components-web/issues/5290)) ([f978109](https://github.com/0ddfell0w/material-components-web/commit/f978109))
+* **chips:** Fix browser back nav in FF when removing chip with… ([#5537](https://github.com/0ddfell0w/material-components-web/issues/5537)) ([a1a0deb](https://github.com/0ddfell0w/material-components-web/commit/a1a0deb))
+* **chips:** Fix chips trailing icon margin ([#4720](https://github.com/0ddfell0w/material-components-web/issues/4720)) ([5de76bc](https://github.com/0ddfell0w/material-components-web/commit/5de76bc))
+* **chips:** Fix chips trailing icon margin ([#4720](https://github.com/0ddfell0w/material-components-web/issues/4720)) ([41b1f74](https://github.com/0ddfell0w/material-components-web/commit/41b1f74))
+* **chips:** Fix incorrect ripple effect on filter chip ([#4565](https://github.com/0ddfell0w/material-components-web/issues/4565)) ([975bae2](https://github.com/0ddfell0w/material-components-web/commit/975bae2))
+* **chips:** Flip leading icon margin when used in RTL contexts ([#4380](https://github.com/0ddfell0w/material-components-web/issues/4380)) ([ea15b2f](https://github.com/0ddfell0w/material-components-web/commit/ea15b2f))
+* **chips:** Ignore selection events in chip set ([#4878](https://github.com/0ddfell0w/material-components-web/issues/4878)) ([94c6a00](https://github.com/0ddfell0w/material-components-web/commit/94c6a00))
+* **chips:** Remove keyCode check ([#4966](https://github.com/0ddfell0w/material-components-web/issues/4966)) ([e6304c4](https://github.com/0ddfell0w/material-components-web/commit/e6304c4))
+* **chips:** Reset touch target when chip density mixin is applied. ([#5116](https://github.com/0ddfell0w/material-components-web/issues/5116)) ([d3b515e](https://github.com/0ddfell0w/material-components-web/commit/d3b515e))
+* **chips:** Stack trailing/leading icons above touch target el ([#5040](https://github.com/0ddfell0w/material-components-web/issues/5040)) ([048d4b7](https://github.com/0ddfell0w/material-components-web/commit/048d4b7))
+* **chips:** Stop emitting events in handlers ([#4969](https://github.com/0ddfell0w/material-components-web/issues/4969)) ([cfd81dc](https://github.com/0ddfell0w/material-components-web/commit/cfd81dc))
+* **chips:** Use required pixel value ([#4361](https://github.com/0ddfell0w/material-components-web/issues/4361)) ([fdfd934](https://github.com/0ddfell0w/material-components-web/commit/fdfd934))
+* **core:** Fix canary release by excluding test files from default tsconfig ([#5317](https://github.com/0ddfell0w/material-components-web/issues/5317)) ([c916008](https://github.com/0ddfell0w/material-components-web/commit/c916008))
+* **data-table:** Add .npmignore to ignore typescript files when… ([#4992](https://github.com/0ddfell0w/material-components-web/issues/4992)) ([dd422d1](https://github.com/0ddfell0w/material-components-web/commit/dd422d1))
+* **data-table:** change svg attribute name viewbox to viewBox ([#5483](https://github.com/0ddfell0w/material-components-web/issues/5483)) ([#5493](https://github.com/0ddfell0w/material-components-web/issues/5493)) ([f3adce8](https://github.com/0ddfell0w/material-components-web/commit/f3adce8))
+* **data-table:** Fixed alignment of header cell title for numer… ([#4963](https://github.com/0ddfell0w/material-components-web/issues/4963)) ([b6274a7](https://github.com/0ddfell0w/material-components-web/commit/b6274a7))
+* **data-table:** Minor fixes for data table layout ([#5037](https://github.com/0ddfell0w/material-components-web/issues/5037)) ([37b1f93](https://github.com/0ddfell0w/material-components-web/commit/37b1f93))
+* **dialog:** Add noflip annotations for GSS compiler. ([#4769](https://github.com/0ddfell0w/material-components-web/issues/4769)) ([d644e78](https://github.com/0ddfell0w/material-components-web/commit/d644e78))
+* **dialog:** Add noflip annotations for GSS compiler. ([#4769](https://github.com/0ddfell0w/material-components-web/issues/4769)) ([5563a12](https://github.com/0ddfell0w/material-components-web/commit/5563a12))
+* **dialog:** Fix scrolling content overflowing on Chrome/Android. ([#4746](https://github.com/0ddfell0w/material-components-web/issues/4746)) ([3e9abda](https://github.com/0ddfell0w/material-components-web/commit/3e9abda))
+* **dialog:** Fix scrolling content overflowing on Chrome/Android. ([#4746](https://github.com/0ddfell0w/material-components-web/issues/4746)) ([f741ae0](https://github.com/0ddfell0w/material-components-web/commit/f741ae0))
+* **dialog:** Move aria roles from dialog root to dialog surface… ([#5239](https://github.com/0ddfell0w/material-components-web/issues/5239)) ([c704b71](https://github.com/0ddfell0w/material-components-web/commit/c704b71))
+* **dialog:** Use 100vw for dialog max-width calculation. ([#4766](https://github.com/0ddfell0w/material-components-web/issues/4766)) ([f918e0a](https://github.com/0ddfell0w/material-components-web/commit/f918e0a)), closes [#4746](https://github.com/0ddfell0w/material-components-web/issues/4746)
+* **dialog:** Use 100vw for dialog max-width calculation. ([#4766](https://github.com/0ddfell0w/material-components-web/issues/4766)) ([d0b8c89](https://github.com/0ddfell0w/material-components-web/commit/d0b8c89)), closes [#4746](https://github.com/0ddfell0w/material-components-web/issues/4746)
+* **drawer:** Fix restore & release focus order when closing the drawer ([#4304](https://github.com/0ddfell0w/material-components-web/issues/4304)) ([dffbcc1](https://github.com/0ddfell0w/material-components-web/commit/dffbcc1))
+* **drawer:** Upgrade focus-trap version in drawer & dialog ([#4217](https://github.com/0ddfell0w/material-components-web/issues/4217)) ([ea37b07](https://github.com/0ddfell0w/material-components-web/commit/ea37b07))
+* **drawer:** Use parentNode DOM API when selecting scrim to make it work with Shadow DOM ([#4265](https://github.com/0ddfell0w/material-components-web/issues/4265)) ([385a223](https://github.com/0ddfell0w/material-components-web/commit/385a223))
+* **elevation:** Update overlay color mixin ([#5331](https://github.com/0ddfell0w/material-components-web/issues/5331)) ([b723dfa](https://github.com/0ddfell0w/material-components-web/commit/b723dfa))
+* **fab:** Add missing dep to fab package.json. ([#5236](https://github.com/0ddfell0w/material-components-web/issues/5236)) ([e0f6fd9](https://github.com/0ddfell0w/material-components-web/commit/e0f6fd9))
+* **fab:** Add overflow: hidden; to ripple target to fix bounded ripple. ([#5214](https://github.com/0ddfell0w/material-components-web/issues/5214)) ([97cbbdc](https://github.com/0ddfell0w/material-components-web/commit/97cbbdc))
+* **fab:** Add overflow: visible to make touch target visible in… ([#5241](https://github.com/0ddfell0w/material-components-web/issues/5241)) ([5850080](https://github.com/0ddfell0w/material-components-web/commit/5850080))
+* **fab:** Adjust fab line-height ([#5254](https://github.com/0ddfell0w/material-components-web/issues/5254)) ([525989b](https://github.com/0ddfell0w/material-components-web/commit/525989b))
+* **fab:** Adjust fab line-height to center text ([#5258](https://github.com/0ddfell0w/material-components-web/issues/5258)) ([591a6ad](https://github.com/0ddfell0w/material-components-web/commit/591a6ad))
+* **fab:** clear text decoration ([#4865](https://github.com/0ddfell0w/material-components-web/issues/4865)) ([b524a12](https://github.com/0ddfell0w/material-components-web/commit/b524a12))
+* **fab:** Use FAB ripple target selector ([#5146](https://github.com/0ddfell0w/material-components-web/issues/5146)) ([9d91acc](https://github.com/0ddfell0w/material-components-web/commit/9d91acc))
+* **feature-targeting:** fix incorrect list construction ([#4419](https://github.com/0ddfell0w/material-components-web/issues/4419)) ([173f202](https://github.com/0ddfell0w/material-components-web/commit/173f202))
+* **feature-targeting:** Move ripple styles into separate mixins ([#4454](https://github.com/0ddfell0w/material-components-web/issues/4454)) ([720bef0](https://github.com/0ddfell0w/material-components-web/commit/720bef0))
+* **feature-targeting:** prevent accidental nesting of mdc-feature-targets mixin ([#4281](https://github.com/0ddfell0w/material-components-web/issues/4281)) ([3405bc4](https://github.com/0ddfell0w/material-components-web/commit/3405bc4))
+* **floating-label:** Add missing import to mixins ([#4434](https://github.com/0ddfell0w/material-components-web/issues/4434)) ([183d44e](https://github.com/0ddfell0w/material-components-web/commit/183d44e))
+* **select:** Update screenshots for FF/Windows update. ([#4790](https://github.com/0ddfell0w/material-components-web/issues/4790)) ([04aa6ff](https://github.com/0ddfell0w/material-components-web/commit/04aa6ff))
+* remove icontoggle ([#4783](https://github.com/0ddfell0w/material-components-web/issues/4783)) ([5079213](https://github.com/0ddfell0w/material-components-web/commit/5079213))
+* **floatinglabel:** Estimate hidden scroll width ([#5448](https://github.com/0ddfell0w/material-components-web/issues/5448)) ([981ec9b](https://github.com/0ddfell0w/material-components-web/commit/981ec9b))
+* **form-field:** Fix radio RTL alignment bug. ([#5064](https://github.com/0ddfell0w/material-components-web/issues/5064)) ([ef99808](https://github.com/0ddfell0w/material-components-web/commit/ef99808))
+* **infrastructure:** Fix failing screenshot tests ([#4800](https://github.com/0ddfell0w/material-components-web/issues/4800)) ([a9a41cb](https://github.com/0ddfell0w/material-components-web/commit/a9a41cb))
+* **infrastructure:** Fix failing screenshot tests ([#4800](https://github.com/0ddfell0w/material-components-web/issues/4800)) ([0fb049e](https://github.com/0ddfell0w/material-components-web/commit/0fb049e))
+* **infrastructure:** support ssr by removing the reference from window ([#4864](https://github.com/0ddfell0w/material-components-web/issues/4864)) ([e5c5ea5](https://github.com/0ddfell0w/material-components-web/commit/e5c5ea5))
+* **infrastructure:** update check-pkg-for-release.js ([#4857](https://github.com/0ddfell0w/material-components-web/issues/4857)) ([0cd775c](https://github.com/0ddfell0w/material-components-web/commit/0cd775c))
+* **linear-progress:** Fix indeterminate animation bug ([#5180](https://github.com/0ddfell0w/material-components-web/issues/5180)) ([062ade5](https://github.com/0ddfell0w/material-components-web/commit/062ade5))
+* **linear-progress:** Prefix animation keyframes to prevent clashing ([#5155](https://github.com/0ddfell0w/material-components-web/issues/5155)) ([fc0e474](https://github.com/0ddfell0w/material-components-web/commit/fc0e474))
+* **linear-progress:** Restore buffer after determinate is toggl… ([#5156](https://github.com/0ddfell0w/material-components-web/issues/5156)) ([09b1598](https://github.com/0ddfell0w/material-components-web/commit/09b1598))
+* **linear-progress:** stop animation when closed ([#5006](https://github.com/0ddfell0w/material-components-web/issues/5006)) ([4c4342d](https://github.com/0ddfell0w/material-components-web/commit/4c4342d))
+* **linear-progress:** Support high contrast mode ([#5190](https://github.com/0ddfell0w/material-components-web/issues/5190)) ([d4141c9](https://github.com/0ddfell0w/material-components-web/commit/d4141c9))
+* **list:** Accept array of index for selectedIndex API ([#4124](https://github.com/0ddfell0w/material-components-web/issues/4124)) ([be070a4](https://github.com/0ddfell0w/material-components-web/commit/be070a4))
+* **list:** Add #adapter.listItemAtIndexHasClass to prevent user state change to disabled items ([#4922](https://github.com/0ddfell0w/material-components-web/issues/4922)) ([b6d213c](https://github.com/0ddfell0w/material-components-web/commit/b6d213c))
+* **list:** Add cursor: pointer for interactive list items ([#4563](https://github.com/0ddfell0w/material-components-web/issues/4563)) ([d2f0ccb](https://github.com/0ddfell0w/material-components-web/commit/d2f0ccb)), closes [#4557](https://github.com/0ddfell0w/material-components-web/issues/4557)
+* **list:** Ensure disabled colors apply to primary and secondary text ([#5322](https://github.com/0ddfell0w/material-components-web/issues/5322)) ([878a08b](https://github.com/0ddfell0w/material-components-web/commit/878a08b))
+* **list:** Include disabled list items in keyboard navigation and allow focus ([#4568](https://github.com/0ddfell0w/material-components-web/issues/4568)) ([6e24280](https://github.com/0ddfell0w/material-components-web/commit/6e24280))
+* **list:** removed unused adapter.removeAttributeForElementIndex ([#4473](https://github.com/0ddfell0w/material-components-web/issues/4473)) ([6b3a419](https://github.com/0ddfell0w/material-components-web/commit/6b3a419))
+* **list:** Update default notifyAction impl to emit object ([#4356](https://github.com/0ddfell0w/material-components-web/issues/4356)) ([ed1aeb2](https://github.com/0ddfell0w/material-components-web/commit/ed1aeb2)), closes [#4355](https://github.com/0ddfell0w/material-components-web/issues/4355)
+* **list:** Update meta class to use caption typogrpahy style ([#4623](https://github.com/0ddfell0w/material-components-web/issues/4623)) ([0826a78](https://github.com/0ddfell0w/material-components-web/commit/0826a78))
+* **menu:** Fix bug where TAB does not respect the default browser tab order. ([#4789](https://github.com/0ddfell0w/material-components-web/issues/4789)) ([22237cd](https://github.com/0ddfell0w/material-components-web/commit/22237cd))
+* **menu:** Fix bug where TAB does not respect the default browser tab order. ([#4789](https://github.com/0ddfell0w/material-components-web/issues/4789)) ([fac4c43](https://github.com/0ddfell0w/material-components-web/commit/fac4c43))
+* **menu:** Fix selection group list item spacing ([#4517](https://github.com/0ddfell0w/material-components-web/issues/4517)) ([5183e01](https://github.com/0ddfell0w/material-components-web/commit/5183e01))
+* **menu:** In Windows high contrast mode, decrease opacity of disabled menu items. ([#4777](https://github.com/0ddfell0w/material-components-web/issues/4777)) ([08e4dc1](https://github.com/0ddfell0w/material-components-web/commit/08e4dc1))
+* **menu:** In Windows high contrast mode, decrease opacity of disabled menu items. ([#4777](https://github.com/0ddfell0w/material-components-web/issues/4777)) ([898e53e](https://github.com/0ddfell0w/material-components-web/commit/898e53e))
+* **menu:** Increase specificity of selection group class ([#4172](https://github.com/0ddfell0w/material-components-web/issues/4172)) ([1d919ef](https://github.com/0ddfell0w/material-components-web/commit/1d919ef))
+* **menu:** Read index property from list item event detail ([#4368](https://github.com/0ddfell0w/material-components-web/issues/4368)) ([5eb5a01](https://github.com/0ddfell0w/material-components-web/commit/5eb5a01)), closes [#4356](https://github.com/0ddfell0w/material-components-web/issues/4356)
+* **menu:** recompute index before marking selection ([#5047](https://github.com/0ddfell0w/material-components-web/issues/5047)) ([90f6247](https://github.com/0ddfell0w/material-components-web/commit/90f6247))
+* **menu:** Remove code to focus on first/last element on TAB/SHIFT+TAB. ([#4786](https://github.com/0ddfell0w/material-components-web/issues/4786)) ([99af567](https://github.com/0ddfell0w/material-components-web/commit/99af567))
+* **menu:** Remove code to focus on first/last element on TAB/SHIFT+TAB. ([#4786](https://github.com/0ddfell0w/material-components-web/issues/4786)) ([d3f8cb3](https://github.com/0ddfell0w/material-components-web/commit/d3f8cb3))
+* **menu:** Switch from aria-selected to aria-checked for selected menu item. ([#4779](https://github.com/0ddfell0w/material-components-web/issues/4779)) ([f4b0bf5](https://github.com/0ddfell0w/material-components-web/commit/f4b0bf5))
+* **menu:** Switch from aria-selected to aria-checked for selected menu item. ([#4779](https://github.com/0ddfell0w/material-components-web/issues/4779)) ([ef198ea](https://github.com/0ddfell0w/material-components-web/commit/ef198ea))
+* **menu:** Updated menu to use list's custom event ([#4151](https://github.com/0ddfell0w/material-components-web/issues/4151)) ([a4e08f1](https://github.com/0ddfell0w/material-components-web/commit/a4e08f1))
+* **menu:** Use on-surface color for graphic/meta content ([#4520](https://github.com/0ddfell0w/material-components-web/issues/4520)) ([74b8d67](https://github.com/0ddfell0w/material-components-web/commit/74b8d67))
+* **menu:** Vertically center the group icon ([#4862](https://github.com/0ddfell0w/material-components-web/issues/4862)) ([d551dfd](https://github.com/0ddfell0w/material-components-web/commit/d551dfd))
+* **menu:** Vertically center the group icon ([#4862](https://github.com/0ddfell0w/material-components-web/issues/4862)) ([c5738ed](https://github.com/0ddfell0w/material-components-web/commit/c5738ed))
+* **menu-surface:** Correct open animation issue ([#4371](https://github.com/0ddfell0w/material-components-web/issues/4371)) ([ed4c945](https://github.com/0ddfell0w/material-components-web/commit/ed4c945))
+* **menu-surface:** Fix anchorElement initialization ([#4462](https://github.com/0ddfell0w/material-components-web/issues/4462)) ([2025c8b](https://github.com/0ddfell0w/material-components-web/commit/2025c8b))
+* **menu-surface:** Raise z-index over MDC Dialog ([#4185](https://github.com/0ddfell0w/material-components-web/issues/4185)) ([fa6f219](https://github.com/0ddfell0w/material-components-web/commit/fa6f219))
+* **menu-surface:** remove duplicate export from menu-surface ([#5200](https://github.com/0ddfell0w/material-components-web/issues/5200)) ([0b120ae](https://github.com/0ddfell0w/material-components-web/commit/0b120ae))
+* **notched-outline:** Fix label overflow ([#4171](https://github.com/0ddfell0w/material-components-web/issues/4171)) ([145db1f](https://github.com/0ddfell0w/material-components-web/commit/145db1f))
+* **notched-outline:** fix missing shape functions import ([#4224](https://github.com/0ddfell0w/material-components-web/issues/4224)) ([96f663e](https://github.com/0ddfell0w/material-components-web/commit/96f663e))
+* **notched-outline:** Restore component test ([#5449](https://github.com/0ddfell0w/material-components-web/issues/5449)) ([4269133](https://github.com/0ddfell0w/material-components-web/commit/4269133))
+* **package:** Add source-map files to npm releases ([#4206](https://github.com/0ddfell0w/material-components-web/issues/4206)) ([9d6375b](https://github.com/0ddfell0w/material-components-web/commit/9d6375b))
+* **package:** Fix module declaration names in dist d.ts files ([#4476](https://github.com/0ddfell0w/material-components-web/issues/4476)) ([872b39f](https://github.com/0ddfell0w/material-components-web/commit/872b39f))
+* **package:** Update fibers to the latest version 🚀 ([#4658](https://github.com/0ddfell0w/material-components-web/issues/4658)) ([0590ebb](https://github.com/0ddfell0w/material-components-web/commit/0590ebb))
+* **radio:** Fix touch target margins: 0px => 4px. ([#5096](https://github.com/0ddfell0w/material-components-web/issues/5096)) ([a48d06e](https://github.com/0ddfell0w/material-components-web/commit/a48d06e))
+* **radio:** update disabled color values ([#5210](https://github.com/0ddfell0w/material-components-web/issues/5210)) ([491fddc](https://github.com/0ddfell0w/material-components-web/commit/491fddc))
+* **ripple:** Add overflow: hidden; to the bounded ripple mixin ([#5173](https://github.com/0ddfell0w/material-components-web/issues/5173)) ([996b091](https://github.com/0ddfell0w/material-components-web/commit/996b091))
+* **ripple:** Always set even num when initial ripple size is ca… ([#5141](https://github.com/0ddfell0w/material-components-web/issues/5141)) ([b26ad23](https://github.com/0ddfell0w/material-components-web/commit/b26ad23))
+* **ripple:** Fixes issue where Chrome v74 shows black artifact on ripple surface on hover ([#4695](https://github.com/0ddfell0w/material-components-web/issues/4695)) ([7a5e7ed](https://github.com/0ddfell0w/material-components-web/commit/7a5e7ed))
+* **ripple:** Remove unnecessary overflow: hidden. ([#5191](https://github.com/0ddfell0w/material-components-web/issues/5191)) ([5916d18](https://github.com/0ddfell0w/material-components-web/commit/5916d18))
+* **ripple:** Removed will-change CSS property ([a0c7b81](https://github.com/0ddfell0w/material-components-web/commit/a0c7b81))
+* **ripple:** Use mdc-dom.matches everywhere ([#4372](https://github.com/0ddfell0w/material-components-web/issues/4372)) ([a2aa3c8](https://github.com/0ddfell0w/material-components-web/commit/a2aa3c8)), closes [#4340](https://github.com/0ddfell0w/material-components-web/issues/4340)
+* **ripple:** Use standard element removal method ([#4638](https://github.com/0ddfell0w/material-components-web/issues/4638)) ([ef07477](https://github.com/0ddfell0w/material-components-web/commit/ef07477))
+* **rtl:** Removed mdc-rtl-include check from mdc-rtl-reflexive mixin ([#5001](https://github.com/0ddfell0w/material-components-web/issues/5001)) ([6e7b191](https://github.com/0ddfell0w/material-components-web/commit/6e7b191))
+* **select:** Do not fire change event on programmatic change ([#5255](https://github.com/0ddfell0w/material-components-web/issues/5255)) ([ec72968](https://github.com/0ddfell0w/material-components-web/commit/ec72968))
+* **select:** Fix enhanced select issue where it does not stay open on long press [#4173](https://github.com/0ddfell0w/material-components-web/issues/4173) ([#4590](https://github.com/0ddfell0w/material-components-web/issues/4590)) ([8286aa7](https://github.com/0ddfell0w/material-components-web/commit/8286aa7))
+* **select:** Fix notch outline width when floating ([#5319](https://github.com/0ddfell0w/material-components-web/issues/5319)) ([1c494e5](https://github.com/0ddfell0w/material-components-web/commit/1c494e5))
+* **select:** Fixes arrow direction on select focused state ([#4726](https://github.com/0ddfell0w/material-components-web/issues/4726)) ([358546a](https://github.com/0ddfell0w/material-components-web/commit/358546a))
+* **select:** Update screenshots for FF/Windows update. ([#4790](https://github.com/0ddfell0w/material-components-web/issues/4790)) ([6ea503c](https://github.com/0ddfell0w/material-components-web/commit/6ea503c))
+* **select:** Use correct shape category consistently with text-field ([#4553](https://github.com/0ddfell0w/material-components-web/issues/4553)) ([bec2ef2](https://github.com/0ddfell0w/material-components-web/commit/bec2ef2))
+* **shape:** Allow percentage based global overrides ([#4548](https://github.com/0ddfell0w/material-components-web/issues/4548)) ([4bf7a86](https://github.com/0ddfell0w/material-components-web/commit/4bf7a86))
+* **shape:** Fix errors related to multi-value shape categories ([#4547](https://github.com/0ddfell0w/material-components-web/issues/4547)) ([9f79d17](https://github.com/0ddfell0w/material-components-web/commit/9f79d17))
+* **slider:** Don't throw error when markup min is greater than default max ([#3315](https://github.com/0ddfell0w/material-components-web/issues/3315)) ([5fe0c62](https://github.com/0ddfell0w/material-components-web/commit/5fe0c62)), closes [#2269](https://github.com/0ddfell0w/material-components-web/issues/2269)
+* **slider:** slider track not visible ([#5512](https://github.com/0ddfell0w/material-components-web/issues/5512)) ([f2426d2](https://github.com/0ddfell0w/material-components-web/commit/f2426d2))
+* **slider:** use secondary custom property color for slider container ([#5132](https://github.com/0ddfell0w/material-components-web/issues/5132)) ([aa8e43e](https://github.com/0ddfell0w/material-components-web/commit/aa8e43e))
+* **slider:** Visual bug when slider value is displayed as "-0" ([3fc3ab5](https://github.com/0ddfell0w/material-components-web/commit/3fc3ab5))
+* **snackbar:** add explicit width for label to wrap in ie11 ([#5497](https://github.com/0ddfell0w/material-components-web/issues/5497)) ([cd49033](https://github.com/0ddfell0w/material-components-web/commit/cd49033))
+* **snackbar:** adjust mixins to meet spec ([#5477](https://github.com/0ddfell0w/material-components-web/issues/5477)) ([f16f15b](https://github.com/0ddfell0w/material-components-web/commit/f16f15b))
+* **snackbar:** Rename action/dismiss classes and revise docs/tests ([#4203](https://github.com/0ddfell0w/material-components-web/issues/4203)) ([673dba2](https://github.com/0ddfell0w/material-components-web/commit/673dba2))
+* **switch:** fix strict generic checks ([7f5e0c2](https://github.com/0ddfell0w/material-components-web/commit/7f5e0c2))
+* **switch:** handle aria-checked correctly. ([#5202](https://github.com/0ddfell0w/material-components-web/issues/5202)) ([#5357](https://github.com/0ddfell0w/material-components-web/issues/5357)) ([d245a1a](https://github.com/0ddfell0w/material-components-web/commit/d245a1a))
+* **switch:** set track border to be transparent ([#5323](https://github.com/0ddfell0w/material-components-web/issues/5323)) ([397905b](https://github.com/0ddfell0w/material-components-web/commit/397905b))
+* **tab:** Explicitly set margin to 0 on tabs for Safari ([#4654](https://github.com/0ddfell0w/material-components-web/issues/4654)) ([28aa623](https://github.com/0ddfell0w/material-components-web/commit/28aa623))
+* **tab:** Fix tab color variables to use color literals ([#4688](https://github.com/0ddfell0w/material-components-web/issues/4688)) ([88734fe](https://github.com/0ddfell0w/material-components-web/commit/88734fe))
+* **tab:** Fix tab icon color mixin to support SVG icons. ([#4540](https://github.com/0ddfell0w/material-components-web/issues/4540)) ([5ad6570](https://github.com/0ddfell0w/material-components-web/commit/5ad6570))
+* **tab:** Update horizontal padding mixin ([#4678](https://github.com/0ddfell0w/material-components-web/issues/4678)) ([d3ce9c9](https://github.com/0ddfell0w/material-components-web/commit/d3ce9c9))
+* **tab:** Update moz-focusring to moz-focus-inner to match button ([#4567](https://github.com/0ddfell0w/material-components-web/issues/4567)) ([968a054](https://github.com/0ddfell0w/material-components-web/commit/968a054))
+* **tab-indicator:** Center content ([#4837](https://github.com/0ddfell0w/material-components-web/issues/4837)) ([102d778](https://github.com/0ddfell0w/material-components-web/commit/102d778))
+* **tab-indicator:** Remove child selector ([#4676](https://github.com/0ddfell0w/material-components-web/issues/4676)) ([edbe0ba](https://github.com/0ddfell0w/material-components-web/commit/edbe0ba))
+* **tab-indicator:** Show border for high contrast ([#4666](https://github.com/0ddfell0w/material-components-web/issues/4666)) ([5a52847](https://github.com/0ddfell0w/material-components-web/commit/5a52847))
+* **tabs:** Disable firefox focus ring ([#4560](https://github.com/0ddfell0w/material-components-web/issues/4560)) ([a99b7d4](https://github.com/0ddfell0w/material-components-web/commit/a99b7d4))
+* **tabs:** Fix tab img icon styling. ([#5041](https://github.com/0ddfell0w/material-components-web/issues/5041)) ([d0e6cd1](https://github.com/0ddfell0w/material-components-web/commit/d0e6cd1))
+* **tabs:** Remove deprecated package mdc-tabs ([#4784](https://github.com/0ddfell0w/material-components-web/issues/4784)) ([4f366a5](https://github.com/0ddfell0w/material-components-web/commit/4f366a5))
+* **testing:** Revert change from [#5299](https://github.com/0ddfell0w/material-components-web/issues/5299). ([#5324](https://github.com/0ddfell0w/material-components-web/issues/5324)) ([5fb62be](https://github.com/0ddfell0w/material-components-web/commit/5fb62be))
+* **text-field:** add classes constant ([#4608](https://github.com/0ddfell0w/material-components-web/issues/4608)) ([22fa259](https://github.com/0ddfell0w/material-components-web/commit/22fa259))
+* **text-field:** Do not trigger shake animation when text field is empty ([#5097](https://github.com/0ddfell0w/material-components-web/issues/5097)) ([4913db9](https://github.com/0ddfell0w/material-components-web/commit/4913db9))
+* **text-field:** Don't move caret when value has not changed ([#4160](https://github.com/0ddfell0w/material-components-web/issues/4160)) ([d55ca11](https://github.com/0ddfell0w/material-components-web/commit/d55ca11))
+* **text-field:** Fix asterisk color of text field when input is invalid and disabled ([#4806](https://github.com/0ddfell0w/material-components-web/issues/4806)) ([24054ed](https://github.com/0ddfell0w/material-components-web/commit/24054ed))
+* **text-field:** Fix for input alignment in textfield with trailing icon ([#4478](https://github.com/0ddfell0w/material-components-web/issues/4478)) ([b9c5fc6](https://github.com/0ddfell0w/material-components-web/commit/b9c5fc6))
+* **text-field:** Fix placeholder styles for text field fullwidth variant. ([#4385](https://github.com/0ddfell0w/material-components-web/issues/4385)) ([3bd3636](https://github.com/0ddfell0w/material-components-web/commit/3bd3636))
+* **text-field:** Fix textfield placeholder & outline stroke animation ([#4310](https://github.com/0ddfell0w/material-components-web/issues/4310)) ([58c3b4d](https://github.com/0ddfell0w/material-components-web/commit/58c3b4d))
+* **text-field:** Fixed asterisk color where it stays in error color even after input is resolved ([#4576](https://github.com/0ddfell0w/material-components-web/issues/4576)) ([ca502d4](https://github.com/0ddfell0w/material-components-web/commit/ca502d4))
+* **text-field:** Fixes input text alignment on IE11 for densed text field ([#5136](https://github.com/0ddfell0w/material-components-web/issues/5136)) ([892dd4e](https://github.com/0ddfell0w/material-components-web/commit/892dd4e))
+* **text-field:** Fixes input text alignment on IE11 for densed… ([#5147](https://github.com/0ddfell0w/material-components-web/issues/5147)) ([c8f7693](https://github.com/0ddfell0w/material-components-web/commit/c8f7693))
+* **text-field:** Fixes overlapping input with leading icon in absence of label ([#4637](https://github.com/0ddfell0w/material-components-web/issues/4637)) ([64e459e](https://github.com/0ddfell0w/material-components-web/commit/64e459e))
+* **text-field:** Reset z-index property of chrome autofill box ([#4232](https://github.com/0ddfell0w/material-components-web/issues/4232)) ([e718cb2](https://github.com/0ddfell0w/material-components-web/commit/e718cb2))
+* **text-field:** Restrict resize to vertical for full width text area ([#4167](https://github.com/0ddfell0w/material-components-web/issues/4167)) ([77a2bd4](https://github.com/0ddfell0w/material-components-web/commit/77a2bd4))
+* **text-field:** Set char counter text not to wrap ([#4423](https://github.com/0ddfell0w/material-components-web/issues/4423)) ([9b7dce7](https://github.com/0ddfell0w/material-components-web/commit/9b7dce7))
+* **text-field:** Set character counter in setValue ([#4572](https://github.com/0ddfell0w/material-components-web/issues/4572)) ([bce2e63](https://github.com/0ddfell0w/material-components-web/commit/bce2e63))
+* **text-field:** Update character counter to update when value is set. ([#4663](https://github.com/0ddfell0w/material-components-web/issues/4663)) ([acfbe2d](https://github.com/0ddfell0w/material-components-web/commit/acfbe2d))
+* **text-field:** Update closure type for rippleFactory ([#4324](https://github.com/0ddfell0w/material-components-web/issues/4324)) ([7a4a707](https://github.com/0ddfell0w/material-components-web/commit/7a4a707))
+* **text-field:** Update outline idle border color to match design guidance ([#4768](https://github.com/0ddfell0w/material-components-web/issues/4768)) ([7fedeaf](https://github.com/0ddfell0w/material-components-web/commit/7fedeaf))
+* **text-field:** Updated shape mixins to set density scale ([#5207](https://github.com/0ddfell0w/material-components-web/issues/5207)) ([719b57e](https://github.com/0ddfell0w/material-components-web/commit/719b57e))
+* **textfield:** add placeholder mixins and fix disabled colors ([#5360](https://github.com/0ddfell0w/material-components-web/issues/5360)) ([0a40ced](https://github.com/0ddfell0w/material-components-web/commit/0a40ced))
+* **textfield:** add separate classes for leading/trailing icons ([#5367](https://github.com/0ddfell0w/material-components-web/issues/5367)) ([70c708d](https://github.com/0ddfell0w/material-components-web/commit/70c708d))
+* **textfield:** change root element to <label> ([#5439](https://github.com/0ddfell0w/material-components-web/issues/5439)) ([d8d9502](https://github.com/0ddfell0w/material-components-web/commit/d8d9502))
+* **textfield:** hide filled-variant floating label at <52px ([#5553](https://github.com/0ddfell0w/material-components-web/issues/5553)) ([5ff3380](https://github.com/0ddfell0w/material-components-web/commit/5ff3380))
+* **textfield:** incorrect mixin forward path ([#5554](https://github.com/0ddfell0w/material-components-web/issues/5554)) ([3e782d8](https://github.com/0ddfell0w/material-components-web/commit/3e782d8))
+* **textfield:** outlined trailing icon's position ([#5496](https://github.com/0ddfell0w/material-components-web/issues/5496)) ([93e2288](https://github.com/0ddfell0w/material-components-web/commit/93e2288))
+* **textfield:** prevent placeholder styles from collapsing with minifiers ([d07c78d](https://github.com/0ddfell0w/material-components-web/commit/d07c78d))
+* **textfield:** use correct disabled colors for IE11 high contrast ([5353985](https://github.com/0ddfell0w/material-components-web/commit/5353985))
+* add missing SASS dependencies ([#5337](https://github.com/0ddfell0w/material-components-web/issues/5337)) ([d2ae6e1](https://github.com/0ddfell0w/material-components-web/commit/d2ae6e1))
+* **top-app-bar:** "always collapsed" variant semantics in Short TopAppBar Foundation ([#5009](https://github.com/0ddfell0w/material-components-web/issues/5009)) ([805d098](https://github.com/0ddfell0w/material-components-web/commit/805d098))
+* Don't import * from focus-trap to avoid default export confusion ([#4485](https://github.com/0ddfell0w/material-components-web/issues/4485)) ([6082dc3](https://github.com/0ddfell0w/material-components-web/commit/6082dc3))
+* **top-app-bar:** Move comment line to appropriate section ([#4610](https://github.com/0ddfell0w/material-components-web/issues/4610)) ([3e36555](https://github.com/0ddfell0w/material-components-web/commit/3e36555))
+* move applyPassive to dom package for use in text-field ([#4747](https://github.com/0ddfell0w/material-components-web/issues/4747)) ([ce0b1c5](https://github.com/0ddfell0w/material-components-web/commit/ce0b1c5))
+* Remove edge detection for CSS custom properties ([#5264](https://github.com/0ddfell0w/material-components-web/issues/5264)) ([fe444ac](https://github.com/0ddfell0w/material-components-web/commit/fe444ac))
+* remove icontoggle ([#4783](https://github.com/0ddfell0w/material-components-web/issues/4783)) ([a13089d](https://github.com/0ddfell0w/material-components-web/commit/a13089d))
+* update TypeScript version to 3.5.x and fix typing errors ([#4853](https://github.com/0ddfell0w/material-components-web/issues/4853)) ([0657504](https://github.com/0ddfell0w/material-components-web/commit/0657504))
+* Use head instead of body to detect edge pseudo var bug ([#4982](https://github.com/0ddfell0w/material-components-web/issues/4982)) ([9e87478](https://github.com/0ddfell0w/material-components-web/commit/9e87478))
+* **touch-target:** Add class to touch target wrapper. ([#5174](https://github.com/0ddfell0w/material-components-web/issues/5174)) ([e7799b8](https://github.com/0ddfell0w/material-components-web/commit/e7799b8))
+* **touch-target:** Add missing dependency - touch target to com… ([#5098](https://github.com/0ddfell0w/material-components-web/issues/5098)) ([9306bd0](https://github.com/0ddfell0w/material-components-web/commit/9306bd0))
+* **typography:** Use unquote for setting font-family. ([#4665](https://github.com/0ddfell0w/material-components-web/issues/4665)) ([8d8f3fc](https://github.com/0ddfell0w/material-components-web/commit/8d8f3fc))
+
+
+### Code Refactoring
+
+* **animation:** Remove `transformStyleProperties` export ([#4453](https://github.com/0ddfell0w/material-components-web/issues/4453)) ([aa44991](https://github.com/0ddfell0w/material-components-web/commit/aa44991)), closes [/github.com/material-components/material-components-web/pull/4407#discussion_r258668567](https://github.com//github.com/material-components/material-components-web/pull/4407/issues/discussion_r258668567)
+* **button:** Add ripple target as an inner element. ([#4890](https://github.com/0ddfell0w/material-components-web/issues/4890)) ([dffefe6](https://github.com/0ddfell0w/material-components-web/commit/dffefe6))
+* **dialog:** Split dialog Foundation#handleInteraction into #handleClick/#handleKeydown. ([#4655](https://github.com/0ddfell0w/material-components-web/issues/4655)) ([d650390](https://github.com/0ddfell0w/material-components-web/commit/d650390))
+* **dialog:** Split dialog Foundation#handleInteraction into #handleClick/#handleKeydown. ([#4655](https://github.com/0ddfell0w/material-components-web/issues/4655)) ([36d516a](https://github.com/0ddfell0w/material-components-web/commit/36d516a))
+* **grid-list:** Deprecate component ([#5499](https://github.com/0ddfell0w/material-components-web/issues/5499)) ([cf33f11](https://github.com/0ddfell0w/material-components-web/commit/cf33f11))
+* **mdc-fab:** Move Ripple to inner Element. ([#4997](https://github.com/0ddfell0w/material-components-web/issues/4997)) ([85b33b5](https://github.com/0ddfell0w/material-components-web/commit/85b33b5))
+* **select:** Refactor select ([#5113](https://github.com/0ddfell0w/material-components-web/issues/5113)) ([db7560e](https://github.com/0ddfell0w/material-components-web/commit/db7560e))
+* **slider:** Functional slider tick visuals with css background ([#4756](https://github.com/0ddfell0w/material-components-web/issues/4756)) ([8f851d9](https://github.com/0ddfell0w/material-components-web/commit/8f851d9))
+* **top-app-bar:** Remove [de]registerEventHandler methods from adapters ([#4701](https://github.com/0ddfell0w/material-components-web/issues/4701)) ([34bba89](https://github.com/0ddfell0w/material-components-web/commit/34bba89))
+* **top-app-bar:** Remove [de]registerEventHandler methods from adapters ([#4701](https://github.com/0ddfell0w/material-components-web/issues/4701)) ([d8fe135](https://github.com/0ddfell0w/material-components-web/commit/d8fe135))
+* **touchtarget:** Rename mdc-touch-target-component => mdc… ([#5245](https://github.com/0ddfell0w/material-components-web/issues/5245)) ([afe0dd1](https://github.com/0ddfell0w/material-components-web/commit/afe0dd1))
+* migrate to the Sass module system ([#5453](https://github.com/0ddfell0w/material-components-web/issues/5453)) ([faa9af3](https://github.com/0ddfell0w/material-components-web/commit/faa9af3))
+* Swap MDCTopAppBar Sass Variable Word Order ([#4498](https://github.com/0ddfell0w/material-components-web/issues/4498)) ([e851bae](https://github.com/0ddfell0w/material-components-web/commit/e851bae))
+
+
+### Features
+
+* **auto-init:** initialize components once with multiple mdc.autoInit() calls ([#4691](https://github.com/0ddfell0w/material-components-web/issues/4691)) ([218d2e5](https://github.com/0ddfell0w/material-components-web/commit/218d2e5))
+* **button:** Add disabled state color mixins ([#5232](https://github.com/0ddfell0w/material-components-web/issues/5232)) ([b5eb51e](https://github.com/0ddfell0w/material-components-web/commit/b5eb51e))
+* **button:** Add overflow ellipsis mixin ([#5352](https://github.com/0ddfell0w/material-components-web/issues/5352)) ([47949b0](https://github.com/0ddfell0w/material-components-web/commit/47949b0))
+* **button:** Add support for increased touch target to button. ([#4948](https://github.com/0ddfell0w/material-components-web/issues/4948)) ([1d7a2e6](https://github.com/0ddfell0w/material-components-web/commit/1d7a2e6))
+* **button:** Add trailing icon support via label element ([#4159](https://github.com/0ddfell0w/material-components-web/issues/4159)) ([fa41579](https://github.com/0ddfell0w/material-components-web/commit/fa41579))
+* **button:** Setup elevation overlay ([#5256](https://github.com/0ddfell0w/material-components-web/issues/5256)) ([3cbee6d](https://github.com/0ddfell0w/material-components-web/commit/3cbee6d))
+* **card:** Add elevation overlay structure ([#5282](https://github.com/0ddfell0w/material-components-web/issues/5282)) ([aa0eba4](https://github.com/0ddfell0w/material-components-web/commit/aa0eba4))
+* **card:** add feature targeting for styles ([#4301](https://github.com/0ddfell0w/material-components-web/issues/4301)) ([92db33b](https://github.com/0ddfell0w/material-components-web/commit/92db33b))
+* **checkbox:** Add disabled state color mixins ([#5167](https://github.com/0ddfell0w/material-components-web/issues/5167)) ([01628ef](https://github.com/0ddfell0w/material-components-web/commit/01628ef))
+* **checkbox:** add feature targeting to remaining public mixins ([#4315](https://github.com/0ddfell0w/material-components-web/issues/4315)) ([4bc18d1](https://github.com/0ddfell0w/material-components-web/commit/4bc18d1))
+* **checkbox:** Add support for 48px touch target ([#5025](https://github.com/0ddfell0w/material-components-web/issues/5025)) ([b5685a8](https://github.com/0ddfell0w/material-components-web/commit/b5685a8))
+* **checkbox:** Added mixin to customize checkbox touch dimension. ([#4697](https://github.com/0ddfell0w/material-components-web/issues/4697)) ([42e41d8](https://github.com/0ddfell0w/material-components-web/commit/42e41d8))
+* **checkbox:** Added mixin to customize checkbox touch dimension. ([#4697](https://github.com/0ddfell0w/material-components-web/issues/4697)) ([ff2873e](https://github.com/0ddfell0w/material-components-web/commit/ff2873e))
+* **checkbox:** Declare all Sass variables as `!default` ([de6c833](https://github.com/0ddfell0w/material-components-web/commit/de6c833)), closes [#3708](https://github.com/0ddfell0w/material-components-web/issues/3708)
+* **checkbox:** Move ripple to child node ([#4981](https://github.com/0ddfell0w/material-components-web/issues/4981)) ([9712b24](https://github.com/0ddfell0w/material-components-web/commit/9712b24))
+* **checkbox:** Toggle selected class with state ([#4612](https://github.com/0ddfell0w/material-components-web/issues/4612)) ([5f06dce](https://github.com/0ddfell0w/material-components-web/commit/5f06dce))
+* **checkbox:** Updated cssClasses constant of checkbox ([#4674](https://github.com/0ddfell0w/material-components-web/issues/4674)) ([bb25680](https://github.com/0ddfell0w/material-components-web/commit/bb25680))
+* **chip:** Add density mixin to chip. ([#5109](https://github.com/0ddfell0w/material-components-web/issues/5109)) ([bdf3430](https://github.com/0ddfell0w/material-components-web/commit/bdf3430))
+* **chips:** Add elevation overlay structure ([#5279](https://github.com/0ddfell0w/material-components-web/issues/5279)) ([3e560b3](https://github.com/0ddfell0w/material-components-web/commit/3e560b3))
+* **chips:** Add feature targeting for styles ([#4693](https://github.com/0ddfell0w/material-components-web/issues/4693)) ([0fdb889](https://github.com/0ddfell0w/material-components-web/commit/0fdb889))
+* **chips:** Add keyboard navigation ([#4844](https://github.com/0ddfell0w/material-components-web/issues/4844)) ([42065fe](https://github.com/0ddfell0w/material-components-web/commit/42065fe)), closes [#2259](https://github.com/0ddfell0w/material-components-web/issues/2259)
+* **chips:** Add setAttr adapter method ([#4736](https://github.com/0ddfell0w/material-components-web/issues/4736)) ([b6a606d](https://github.com/0ddfell0w/material-components-web/commit/b6a606d))
+* **chips:** Add setAttr adapter method ([#4736](https://github.com/0ddfell0w/material-components-web/issues/4736)) ([1e21acf](https://github.com/0ddfell0w/material-components-web/commit/1e21acf))
+* **chips:** Add setSelectedFromChipset method ([#4872](https://github.com/0ddfell0w/material-components-web/issues/4872)) ([283bd55](https://github.com/0ddfell0w/material-components-web/commit/283bd55))
+* **chips:** Add support for increased touch target to chips. ([#4970](https://github.com/0ddfell0w/material-components-web/issues/4970)) ([6aa109d](https://github.com/0ddfell0w/material-components-web/commit/6aa109d))
+* **chips:** Announce when chips are removed ([b3f70eb](https://github.com/0ddfell0w/material-components-web/commit/b3f70eb))
+* **chips:** Consolidate interaction event handlers ([#5251](https://github.com/0ddfell0w/material-components-web/issues/5251)) ([5729943](https://github.com/0ddfell0w/material-components-web/commit/5729943))
+* **chips:** Move logic for calculating chip bounding rect into a foundation method ([#4243](https://github.com/0ddfell0w/material-components-web/issues/4243)) ([b30f5e2](https://github.com/0ddfell0w/material-components-web/commit/b30f5e2))
+* **chips:** Use index for all chip operations ([#4869](https://github.com/0ddfell0w/material-components-web/issues/4869)) ([07078bb](https://github.com/0ddfell0w/material-components-web/commit/07078bb))
+* **chips:** Use semantic button elements ([#4627](https://github.com/0ddfell0w/material-components-web/issues/4627)) ([848a5eb](https://github.com/0ddfell0w/material-components-web/commit/848a5eb))
+* **chips:** Use semantic button elements ([#4627](https://github.com/0ddfell0w/material-components-web/issues/4627)) ([741124d](https://github.com/0ddfell0w/material-components-web/commit/741124d))
+* **data-table:** Added data table component ([#4889](https://github.com/0ddfell0w/material-components-web/issues/4889)) ([7d3380a](https://github.com/0ddfell0w/material-components-web/commit/7d3380a))
+* **density:** Add density subsystem to components ([#5059](https://github.com/0ddfell0w/material-components-web/issues/5059)) ([73a5e4c](https://github.com/0ddfell0w/material-components-web/commit/73a5e4c))
+* **dialog:** Add Adapter#getInitialFocusEl. ([#4719](https://github.com/0ddfell0w/material-components-web/issues/4719)) ([bea1e76](https://github.com/0ddfell0w/material-components-web/commit/bea1e76))
+* **dialog:** Add Adapter#getInitialFocusEl. ([#4719](https://github.com/0ddfell0w/material-components-web/issues/4719)) ([1108307](https://github.com/0ddfell0w/material-components-web/commit/1108307))
+* **dialog:** Add dialog mixin for dialogs with increased touch target buttons. ([#5024](https://github.com/0ddfell0w/material-components-web/issues/5024)) ([2ef1ddd](https://github.com/0ddfell0w/material-components-web/commit/2ef1ddd))
+* **dialog:** Add elevation overlay structure ([#5283](https://github.com/0ddfell0w/material-components-web/issues/5283)) ([b8bc4a2](https://github.com/0ddfell0w/material-components-web/commit/b8bc4a2))
+* **dialog:** Add feature targeting for styles ([#4524](https://github.com/0ddfell0w/material-components-web/issues/4524)) ([3556a93](https://github.com/0ddfell0w/material-components-web/commit/3556a93))
+* **dom:** Add focus trap utility. ([#5505](https://github.com/0ddfell0w/material-components-web/issues/5505)) ([63f357d](https://github.com/0ddfell0w/material-components-web/commit/63f357d))
+* **dom:** Create announcer utility ([32c1df1](https://github.com/0ddfell0w/material-components-web/commit/32c1df1))
+* **drawer:** add feature targeting for styles ([#4877](https://github.com/0ddfell0w/material-components-web/issues/4877)) ([4d65d29](https://github.com/0ddfell0w/material-components-web/commit/4d65d29))
+* **drawer:** Make list instance publicly accessible ([#4516](https://github.com/0ddfell0w/material-components-web/issues/4516)) ([f46941c](https://github.com/0ddfell0w/material-components-web/commit/f46941c))
+* **elevation:** Add elevation overlay mixins ([#5249](https://github.com/0ddfell0w/material-components-web/issues/5249)) ([b4cfdc4](https://github.com/0ddfell0w/material-components-web/commit/b4cfdc4))
+* **elevation:** Update elevation mixins ([#5304](https://github.com/0ddfell0w/material-components-web/issues/5304)) ([ba879b6](https://github.com/0ddfell0w/material-components-web/commit/ba879b6))
+* **fab:** Add elevation overlay structure ([#5278](https://github.com/0ddfell0w/material-components-web/issues/5278)) ([e89750d](https://github.com/0ddfell0w/material-components-web/commit/e89750d))
+* **fab:** Add feature targeting for styles ([#4526](https://github.com/0ddfell0w/material-components-web/issues/4526)) ([1ba7bdd](https://github.com/0ddfell0w/material-components-web/commit/1ba7bdd))
+* **fab:** Add support for increased touch target to mini FAB. ([#5231](https://github.com/0ddfell0w/material-components-web/issues/5231)) ([0c4d8f3](https://github.com/0ddfell0w/material-components-web/commit/0c4d8f3))
+* **feature-targeting:** Elevation, ripple, theme, typography ([#4383](https://github.com/0ddfell0w/material-components-web/issues/4383)) ([4c2a63c](https://github.com/0ddfell0w/material-components-web/commit/4c2a63c))
+* **feature-targeting:** Rename main mixins to end with `-core-styles` ([#4404](https://github.com/0ddfell0w/material-components-web/issues/4404)) ([3102351](https://github.com/0ddfell0w/material-components-web/commit/3102351))
+* **floating-label:** add feature targeting for styles ([#5287](https://github.com/0ddfell0w/material-components-web/issues/5287)) ([b240bcc](https://github.com/0ddfell0w/material-components-web/commit/b240bcc))
+* **form-field:** add feature targeting for styles ([#4521](https://github.com/0ddfell0w/material-components-web/issues/4521)) ([cd04f82](https://github.com/0ddfell0w/material-components-web/commit/cd04f82))
+* **grid-list:** Add feature targeting for styles ([#4534](https://github.com/0ddfell0w/material-components-web/issues/4534)) ([a8a6660](https://github.com/0ddfell0w/material-components-web/commit/a8a6660))
+* **icon-button:** Add density mixin to icon button ([#5122](https://github.com/0ddfell0w/material-components-web/issues/5122)) ([37d6458](https://github.com/0ddfell0w/material-components-web/commit/37d6458))
+* **icon-button:** Add disabled state color mixins ([#5246](https://github.com/0ddfell0w/material-components-web/issues/5246)) ([7161170](https://github.com/0ddfell0w/material-components-web/commit/7161170))
+* **icon-button:** Add feature targeting for styles ([#4536](https://github.com/0ddfell0w/material-components-web/issues/4536)) ([a58f2d2](https://github.com/0ddfell0w/material-components-web/commit/a58f2d2))
+* **image-list:** Add feature targeting for styles ([#4535](https://github.com/0ddfell0w/material-components-web/issues/4535)) ([0bfeabb](https://github.com/0ddfell0w/material-components-web/commit/0bfeabb))
+* **line-ripple:** add active/inactive states to line-ripple ([b6c7f62](https://github.com/0ddfell0w/material-components-web/commit/b6c7f62))
+* **line-ripple:** add feature targeting for styles ([#5292](https://github.com/0ddfell0w/material-components-web/issues/5292)) ([391674a](https://github.com/0ddfell0w/material-components-web/commit/391674a))
+* **linear-progress:** add feature targeting for styles ([#4898](https://github.com/0ddfell0w/material-components-web/issues/4898)) ([7ec18c6](https://github.com/0ddfell0w/material-components-web/commit/7ec18c6))
+* **list:** Add density mixin to list ([#5069](https://github.com/0ddfell0w/material-components-web/issues/5069)) ([5132f89](https://github.com/0ddfell0w/material-components-web/commit/5132f89))
+* **list:** Add disabled class name to constants ([#4558](https://github.com/0ddfell0w/material-components-web/issues/4558)) ([f2db177](https://github.com/0ddfell0w/material-components-web/commit/f2db177))
+* **list:** add feature targeting for styles ([#4303](https://github.com/0ddfell0w/material-components-web/issues/4303)) ([c994156](https://github.com/0ddfell0w/material-components-web/commit/c994156))
+* **list:** Add mixin for disabled text opacity ([#4861](https://github.com/0ddfell0w/material-components-web/issues/4861)) ([d68f8a7](https://github.com/0ddfell0w/material-components-web/commit/d68f8a7))
+* **list:** Add notifyAction adapter for action on list item. ([#4144](https://github.com/0ddfell0w/material-components-web/issues/4144)) ([6ed35b1](https://github.com/0ddfell0w/material-components-web/commit/6ed35b1))
+* **list:** Add setEnabled to foundation ([#5049](https://github.com/0ddfell0w/material-components-web/issues/5049)) ([c2b4407](https://github.com/0ddfell0w/material-components-web/commit/c2b4407))
+* **list:** Automatically use appropriate aria attribute for single selection list. ([#4479](https://github.com/0ddfell0w/material-components-web/issues/4479)) ([077c809](https://github.com/0ddfell0w/material-components-web/commit/077c809))
+* **menu:** Add elevation overlay structure ([#5280](https://github.com/0ddfell0w/material-components-web/issues/5280)) ([7fd17ce](https://github.com/0ddfell0w/material-components-web/commit/7fd17ce))
+* **menu:** add feature targeting for styles ([#4278](https://github.com/0ddfell0w/material-components-web/issues/4278)) ([97a8585](https://github.com/0ddfell0w/material-components-web/commit/97a8585))
+* **menu:** add feature targeting to remaining public mixins ([#4317](https://github.com/0ddfell0w/material-components-web/issues/4317)) ([5928c00](https://github.com/0ddfell0w/material-components-web/commit/5928c00))
+* **menu:** add setEnabled to allow dynamic enabling or disabling menu item ([#5054](https://github.com/0ddfell0w/material-components-web/issues/5054)) ([4751d64](https://github.com/0ddfell0w/material-components-web/commit/4751d64))
+* **menu:** add setSelectedIndex to set selected item in menu selection group ([#4620](https://github.com/0ddfell0w/material-components-web/issues/4620)) ([b1e0888](https://github.com/0ddfell0w/material-components-web/commit/b1e0888))
+* **menu:** add setSelectedIndex to set selected item in menu selection group ([#4620](https://github.com/0ddfell0w/material-components-web/issues/4620)) ([3a280c6](https://github.com/0ddfell0w/material-components-web/commit/3a280c6))
+* **menu:** Added new API to manually set focus when menu is opened ([#4468](https://github.com/0ddfell0w/material-components-web/issues/4468)) ([42ae5c3](https://github.com/0ddfell0w/material-components-web/commit/42ae5c3))
+* **menu:** Focus management features & accessibility improvements ([#4587](https://github.com/0ddfell0w/material-components-web/issues/4587)) ([8d91b93](https://github.com/0ddfell0w/material-components-web/commit/8d91b93))
+* **menu-surface:** add feature targeting for styles ([#4279](https://github.com/0ddfell0w/material-components-web/issues/4279)) ([56b8467](https://github.com/0ddfell0w/material-components-web/commit/56b8467))
+* **menu-surface:** Update setPosition adapter API to use numeric values ([#4351](https://github.com/0ddfell0w/material-components-web/issues/4351)) ([701ed5c](https://github.com/0ddfell0w/material-components-web/commit/701ed5c)), closes [#4273](https://github.com/0ddfell0w/material-components-web/issues/4273)
+* **notched-outline:** add feature targeting for styles ([#5289](https://github.com/0ddfell0w/material-components-web/issues/5289)) ([c483774](https://github.com/0ddfell0w/material-components-web/commit/c483774))
+* **progress-indicator:** Add common interface for progress indicators ([#5564](https://github.com/0ddfell0w/material-components-web/issues/5564)) ([ea863cb](https://github.com/0ddfell0w/material-components-web/commit/ea863cb))
+* **radio:** Add density mixin to radio ([#5118](https://github.com/0ddfell0w/material-components-web/issues/5118)) ([199534d](https://github.com/0ddfell0w/material-components-web/commit/199534d))
+* **radio:** Add disabled state color mixins ([#5168](https://github.com/0ddfell0w/material-components-web/issues/5168)) ([b5c6d66](https://github.com/0ddfell0w/material-components-web/commit/b5c6d66))
+* **radio:** add feature targeting for styles ([#4270](https://github.com/0ddfell0w/material-components-web/issues/4270)) ([eb8b8f6](https://github.com/0ddfell0w/material-components-web/commit/eb8b8f6))
+* **radio:** add feature targeting to remaining public mixins ([#4318](https://github.com/0ddfell0w/material-components-web/issues/4318)) ([9f8ee9e](https://github.com/0ddfell0w/material-components-web/commit/9f8ee9e))
+* **radio:** Add support for 48px touch target ([#5032](https://github.com/0ddfell0w/material-components-web/issues/5032)) ([87b0a4c](https://github.com/0ddfell0w/material-components-web/commit/87b0a4c))
+* **radio:** Move ripple to child element ([#4983](https://github.com/0ddfell0w/material-components-web/issues/4983)) ([100ab37](https://github.com/0ddfell0w/material-components-web/commit/100ab37))
+* **ripple:** Add support for ripple target to mixins. ([#4880](https://github.com/0ddfell0w/material-components-web/issues/4880)) ([08dbe69](https://github.com/0ddfell0w/material-components-web/commit/08dbe69))
+* **ripple:** Reduce press opacity by 25% ([#4350](https://github.com/0ddfell0w/material-components-web/issues/4350)) ([f5d2170](https://github.com/0ddfell0w/material-components-web/commit/f5d2170))
+* **rtl:** Added a flag to turn-off mdc-rtl CSS ([#4996](https://github.com/0ddfell0w/material-components-web/issues/4996)) ([eb87f06](https://github.com/0ddfell0w/material-components-web/commit/eb87f06))
+* **shape:** add feature targeting to public mixins ([#4384](https://github.com/0ddfell0w/material-components-web/issues/4384)) ([e0860dd](https://github.com/0ddfell0w/material-components-web/commit/e0860dd))
+* **slider:** add feature targeting for styles ([#4871](https://github.com/0ddfell0w/material-components-web/issues/4871)) ([3ee2675](https://github.com/0ddfell0w/material-components-web/commit/3ee2675))
+* **snackbar:** add feature targeting for styles ([#4876](https://github.com/0ddfell0w/material-components-web/issues/4876)) ([1b7aea1](https://github.com/0ddfell0w/material-components-web/commit/1b7aea1))
+* **snackbar:** Add option for indefinite timeout ([#4998](https://github.com/0ddfell0w/material-components-web/issues/4998)) ([4f11851](https://github.com/0ddfell0w/material-components-web/commit/4f11851))
+* **snackbar:** Update to match latest design guidelines ([#4166](https://github.com/0ddfell0w/material-components-web/issues/4166)) ([33d30e6](https://github.com/0ddfell0w/material-components-web/commit/33d30e6)), closes [#4005](https://github.com/0ddfell0w/material-components-web/issues/4005) [#3981](https://github.com/0ddfell0w/material-components-web/issues/3981) [#2916](https://github.com/0ddfell0w/material-components-web/issues/2916) [#2628](https://github.com/0ddfell0w/material-components-web/issues/2628) [#1466](https://github.com/0ddfell0w/material-components-web/issues/1466) [#1398](https://github.com/0ddfell0w/material-components-web/issues/1398) [#1258](https://github.com/0ddfell0w/material-components-web/issues/1258) [#11](https://github.com/0ddfell0w/material-components-web/issues/11) [#2813](https://github.com/0ddfell0w/material-components-web/issues/2813)
+* **switch:** Add density support for switch component. ([#5124](https://github.com/0ddfell0w/material-components-web/issues/5124)) ([2c793b4](https://github.com/0ddfell0w/material-components-web/commit/2c793b4)), closes [#5104](https://github.com/0ddfell0w/material-components-web/issues/5104)
+* **switch:** Add elevation overlay structure ([#5281](https://github.com/0ddfell0w/material-components-web/issues/5281)) ([50f110a](https://github.com/0ddfell0w/material-components-web/commit/50f110a))
+* **switch:** add feature targeting for styles ([#4275](https://github.com/0ddfell0w/material-components-web/issues/4275)) ([4836293](https://github.com/0ddfell0w/material-components-web/commit/4836293))
+* **switch:** add ripple opacity customization mixins ([#5126](https://github.com/0ddfell0w/material-components-web/issues/5126)) ([8c0273f](https://github.com/0ddfell0w/material-components-web/commit/8c0273f))
+* **switch:** Restructure DOM ([#5312](https://github.com/0ddfell0w/material-components-web/issues/5312)) ([0ec1fab](https://github.com/0ddfell0w/material-components-web/commit/0ec1fab))
+* **tab:** Add Tab Sass mixins targeting active state colors ([#4522](https://github.com/0ddfell0w/material-components-web/issues/4522)) ([31376f7](https://github.com/0ddfell0w/material-components-web/commit/31376f7))
+* **tab:** Add text transform mixin ([#5144](https://github.com/0ddfell0w/material-components-web/issues/5144)) ([22d7ad2](https://github.com/0ddfell0w/material-components-web/commit/22d7ad2))
+* **tab:** Get tabs by their ID ([#4149](https://github.com/0ddfell0w/material-components-web/issues/4149)) ([2d35220](https://github.com/0ddfell0w/material-components-web/commit/2d35220))
+* **tab:** Implement a base states color mixin for Tab ([#4421](https://github.com/0ddfell0w/material-components-web/issues/4421)) ([35c3721](https://github.com/0ddfell0w/material-components-web/commit/35c3721))
+* **tab:** Improved mixins ([#4675](https://github.com/0ddfell0w/material-components-web/issues/4675)) ([252009f](https://github.com/0ddfell0w/material-components-web/commit/252009f))
+* **tab-bar:** Add a mixin to set scroller animation ([#5172](https://github.com/0ddfell0w/material-components-web/issues/5172)) ([d7c938a](https://github.com/0ddfell0w/material-components-web/commit/d7c938a))
+* **tab-bar:** Add density mixin to tab-bar ([#5070](https://github.com/0ddfell0w/material-components-web/issues/5070)) ([45dc002](https://github.com/0ddfell0w/material-components-web/commit/45dc002))
+* **tab-bar:** Allow activation of tab without previous active tab ([#4615](https://github.com/0ddfell0w/material-components-web/issues/4615)) ([7d4124d](https://github.com/0ddfell0w/material-components-web/commit/7d4124d))
+* **tab-scroller:** Add incrementScrollImmediate to bypass animation ([#5184](https://github.com/0ddfell0w/material-components-web/issues/5184)) ([2b878b3](https://github.com/0ddfell0w/material-components-web/commit/2b878b3)), closes [#5123](https://github.com/0ddfell0w/material-components-web/issues/5123)
+* **tab-scroller:** Mixin for scroll transition ([#5154](https://github.com/0ddfell0w/material-components-web/issues/5154)) ([efda83d](https://github.com/0ddfell0w/material-components-web/commit/efda83d))
+* **tabs:** Add active tab states mixin ([#4603](https://github.com/0ddfell0w/material-components-web/issues/4603)) ([0e9f3f5](https://github.com/0ddfell0w/material-components-web/commit/0e9f3f5))
+* **text-field:** Add density mixin to text field variants ([#5066](https://github.com/0ddfell0w/material-components-web/issues/5066)) ([a12101d](https://github.com/0ddfell0w/material-components-web/commit/a12101d))
+* **text-field:** Add disabled state color mixins ([#5208](https://github.com/0ddfell0w/material-components-web/issues/5208)) ([66299b6](https://github.com/0ddfell0w/material-components-web/commit/66299b6))
+* **text-field:** add feature targeting for styles ([#5378](https://github.com/0ddfell0w/material-components-web/issues/5378)) ([e8a9936](https://github.com/0ddfell0w/material-components-web/commit/e8a9936))
+* **text-field:** Added support for character counter. ([#4244](https://github.com/0ddfell0w/material-components-web/issues/4244)) ([0bcc0e7](https://github.com/0ddfell0w/material-components-web/commit/0bcc0e7))
+* **text-field:** Added support for text field without label ([#4285](https://github.com/0ddfell0w/material-components-web/issues/4285)) ([bf956fa](https://github.com/0ddfell0w/material-components-web/commit/bf956fa))
+* **text-field:** Center align inner elements for dynamic height ([#4990](https://github.com/0ddfell0w/material-components-web/issues/4990)) ([4d94b22](https://github.com/0ddfell0w/material-components-web/commit/4d94b22))
+* **text-field:** define icon's cssClasses ([#4614](https://github.com/0ddfell0w/material-components-web/issues/4614)) ([816139c](https://github.com/0ddfell0w/material-components-web/commit/816139c))
+* **textfield:** add end-alignment ([#5356](https://github.com/0ddfell0w/material-components-web/issues/5356)) ([847dd1a](https://github.com/0ddfell0w/material-components-web/commit/847dd1a))
+* **theme:** Add support for arbitrary CSS vars with fallback ([#4470](https://github.com/0ddfell0w/material-components-web/issues/4470)) ([0bfb393](https://github.com/0ddfell0w/material-components-web/commit/0bfb393))
+* **top-app-bar:** use mdc-icon-button styles instead of top app bar ([#4745](https://github.com/0ddfell0w/material-components-web/issues/4745)) ([f8c561c](https://github.com/0ddfell0w/material-components-web/commit/f8c561c))
+* **top-app-bar:** use mdc-icon-button styles instead of top app bar ([#4745](https://github.com/0ddfell0w/material-components-web/issues/4745)) ([605f77e](https://github.com/0ddfell0w/material-components-web/commit/605f77e))
+* add feature targeting for styles to tab-related packages ([#4838](https://github.com/0ddfell0w/material-components-web/issues/4838)) ([c7efc10](https://github.com/0ddfell0w/material-components-web/commit/c7efc10))
+* **touch-target:** Add touch target mixins. ([#4940](https://github.com/0ddfell0w/material-components-web/issues/4940)) ([b2e0fea](https://github.com/0ddfell0w/material-components-web/commit/b2e0fea))
+* Add feature targeting support and apply to mdc-button ([#4228](https://github.com/0ddfell0w/material-components-web/issues/4228)) ([531dffb](https://github.com/0ddfell0w/material-components-web/commit/531dffb))
+* Add index stylesheets to each MDC Web package ([#5539](https://github.com/0ddfell0w/material-components-web/issues/5539)) ([1814866](https://github.com/0ddfell0w/material-components-web/commit/1814866))
+* Add index stylesheets to mdc-image-list and mdc-layout-gr… ([#5546](https://github.com/0ddfell0w/material-components-web/issues/5546)) ([3a85313](https://github.com/0ddfell0w/material-components-web/commit/3a85313))
+* Convert packages to TypeScript ([#4451](https://github.com/0ddfell0w/material-components-web/issues/4451)) ([ad5743a](https://github.com/0ddfell0w/material-components-web/commit/ad5743a)), closes [#4225](https://github.com/0ddfell0w/material-components-web/issues/4225)
+* **typography:** add feature targeting for styles ([#4305](https://github.com/0ddfell0w/material-components-web/issues/4305)) ([8691cf8](https://github.com/0ddfell0w/material-components-web/commit/8691cf8))
+
+
+### Reverts
+
+* "fix(checkbox): change checkbox event type from change to click and add some logic for IE browser" ([ba30399](https://github.com/0ddfell0w/material-components-web/commit/ba30399))
+* feat(chips): Consolidate interaction event handlers ([#5251](https://github.com/0ddfell0w/material-components-web/issues/5251)) ([#5301](https://github.com/0ddfell0w/material-components-web/issues/5301)) ([5e45d77](https://github.com/0ddfell0w/material-components-web/commit/5e45d77))
+* fix(chips): Do not throw error if chip set becomes empty ([#5300](https://github.com/0ddfell0w/material-components-web/issues/5300)) ([d10e8cd](https://github.com/0ddfell0w/material-components-web/commit/d10e8cd))
+* fix(select): Do not fire change event on programmatic change ([#5255](https://github.com/0ddfell0w/material-components-web/issues/5255)) ([#5302](https://github.com/0ddfell0w/material-components-web/issues/5302)) ([ad9dfe7](https://github.com/0ddfell0w/material-components-web/commit/ad9dfe7))
+
+
+### BREAKING CHANGES
+
+* **textfield:** Filled textfields will no longer show a floating label at certain densities. This can be overridden by setting `$mdc-text-field-minimum-height-for-filled-label: 40px`
+* **tab:** MDCTabBar#getIndexOfTab(tab: MDCTab): boolean is now MDCTabBar#getIndexOfTabByID(id: string): boolean
+* **line-ripple:** `mdc-line-ripple-color()` mixin has been renamed to `mdc-line-ripple-active-color()`
+* **grid-list:** Per the deprecation notice for grid-list, this component has been
+removed from MDC-Web. Some of its functionalities are available in the MDC Image List package instead. It is recommended that you migrate to the mdc-image-list package to continue to receive new features and updates.
+* Four variables and a mixin in mdc-textfield were renamed to use a mdc-text-field- prefix when depended on via @import (formerly mdc-required-text-field-label-asterisk_, now required-label-asterisk_).
+* **textfield:** icons must use `.mdc-text-field__icon--leading` or `.mdc-text-field__icon--trailing` classes. `mdc-text-field-icon-color()` mixin has been split into `mdc-text-field-leading-icon-color()` and `mdc-text-field-trailing-icon-color()`.
+
+* chore(textfield): use --leading/trailing modifiers for icons
+
+* chore(textfield): docs typo
+
+* chore(textfield): revert hover fix
+
+* chore(textfield): fix unclosed css block
+
+* chore(textfield): separate position mixins for leading/trailing icons
+
+* chore(textfield): restore two-icons position mixin
+
+* chore(textfield): update component test with icon classes
+
+* chore(textfield): update foundation test for preventDefault error
+* **switch:** Added setNativeControlAttr method in mdc-switch adapter.
+* **checkbox:** remove event listener for 'change' and add event listener for 'click'.
+
+- Add handleClick() method in foundation to handle click event.
+- Add setCheck() method into component to change check status.
+* **switch:** Switch DOM structure has changed. See switch README for details
+* **button:** Variable `$mdc-button-disabled-container-fill-color`
+renamed to `$mdc-button-disabled-container-color`.
+* Removed `$edgeOptOut` option from `mdc-theme-prop()` Sass mixin.
+* **chips:** the handleInteraction and handleTrailingIconInteraction handlers have been removed from the MDCChipFoundation. The handleClick handler has been added to the MDCChipFoundation
+* Adds new adapter methods to MDCLinearProgressAdapter.
+* **elevation:** Functions moved into the _functions.scss file
+* **touchtarget:** Renames mixin from mdc-touch-target-component => mdc-touch-target-margin
+* **text-field:** Redundant mixins `mdc-text-field-textarea-fill-color`, `mdc-text-field-textarea-stroke-color`, `mdc-text-field-fullwidth-bottom-line-color` removed. Instead, use `mdc-text-field-fill-color`, `mdc-text-field-outline-color`, and `mdc-text-field-bottom-line-color` respectively to achieve the same effect.
+* **checkbox:** `mdc-checkbox-ink-color` mixin now only applies to enabled checkboxes
+* **linear-progress:** MDCLinearProgressAdapter adapter has new `forceLayout` method
+* **select:** In MDCMenu and MDCMenuSurface, `hoistMenuToBody` adapter method removed.  In MDCSelect, HTML structure changed: the select anchor is now wrapped in a parent element, and the anchor's sibling is the select menu. Support for native select removed. Support added for select with no label. MDCSelectAdapter methods removed: `getValue`, `setValue`, `isMenuOpen`, `setSelectedIndex`, `checkValidity`, `setValid`, `toggleClassAtIndex`. MDCSelectAdapter methods added: `hasLabel`, `getSelectedMenuItem`, `setSelectedText`, `isSelectedTextFocused`, `get/setSelectedTextAttr`, `getAnchorElement`, `setMenuAnchorElement`, `setMenuAnchorCorner`, `setMenuWrapFocus`, `set/removeAttributeAtIndex`, `focusMenuItemAtIndex`, `getMenuItemValues`, `getMenuItemCount`, `getMenuItemCount`, `getMenuItemAttr`, `getMenuItemTextAtIndex`, `add/removeClassAtIndex`. MDCSelectFoundation `setValue` method removed; `getDisabled`, `handleMenuItemAction`, `getSelectedIndex`, `get/setRequired`, `init` added.
+* **radio:** In Checkbox, Renamed sass variables `$mdc-radio-touch-area` => `$mdc-radio-ripple-size` & `$mdc-radio-ui-size` => `$mdc-radio-icon-size` to be consistent with checkbox. Also, removed `$mdc-radio-ui-pct` sass variable.
+* **switch:** Renames switch variables $mdc-switch-tap-target-size => $mdc-switch-ripple-size, removes $mdc-switch-tap-target-initial-position and $mdc-switch-native-control-width.
+* **list:** New adapter method listItemAtIndexHasClass
+* **list:** Renamed mixin `mdc-list-item-shape-radius()` => `mdc-list-single-line-shape-radius()`
+* **density:** Renamed sass mixins & variables in MDC Data Table - `mdc-data-table-header-row-height` => `mdc-data-table-header-cell-height` & `mdc-data-table-row-height` => `mdc-data-table-cell-height`. Also removed `mdc-button--dense` variant, use button's density mixin instead.
+* **text-field:** Removed sass variable in notched outline - `$mdc-notched-outline-transition-duration`.
+* **mdc-fab:** This changes the structure of the FAB element by moving the ripple from the outer element to an inner mdc-fab__ripple element.
+
+OLD
+
+```html
+<button class="mdc-fab" aria-label="Favorite">
+  <span class="mdc-fab__icon material-icons">favorite</span>
+</button>
+```
+
+NEW
+
+```html
+<button class="mdc-fab" aria-label="Favorite">
+  <div class="mdc-fab__ripple"></div>
+  <span class="mdc-fab__icon material-icons">favorite</span>
+</button>
+```
+* **radio:** Ripple has been moved to a child element. See readme for updates.
+* **slider:** remove adapter methods `appendTrackMarkers`, `removeTrackMarkers `, `setLastTrackMarkersStyleProperty `, and add adapter method `setTrackMarkers`.
+* **button:** This changes the structure of the button element by moving the ripple from the outer <button> element to an inner `mdc-button__ripple` element.
+
+OLD
+```
+<button class="mdc-button">
+  <span class="mdc-button__label">Hello World</span>
+</button>
+```
+
+NEW
+```
+<button class="mdc-button">
+  <div class="mdc-button__ripple"></div>
+  <span class="mdc-button__label">Hello World</span>
+</button>
+```
+* **chips:** MDCChipSetAdapter#removeChip has been replaced with MDCChipSetAdapter#removeChipAtIndex. MDCChipSetAdapter#setSelected has been replaced with MDCChipSetAdapter#selectChipAtIndex
+* **chips:** Chips markup, adapters, foundations, and events have changed.
+* **tabs:** removed deprecated mdc-tabs package.
+* **menu:** The following adapter methods were removed: isFirstElementFocused, isLastElementFocused, focusFirstElement, focusLastElement. The following functionality to handle TAB on menusurface has been removed: "If TAB and last element is focused => Focus on first element", "If SHIFT + TAB and first element is focused => Focus on last element"
+* **chips:** Both `MDCChipAdapter` and `MDCChipSetAdapter` have new methods. `MDCChipSetFoundation` event handlers now accept the corresponding chip event detail interface as the sole argument. The `root` property has been removed from the `MDCChipRemovalEventDetail` interface.
+* **top-app-bar:** Replaced adapter methods getParentElement, getSelectedElementIndex with getSelectedSiblingOfItemAtIndex, isSelectableItemAtIndex.
+* **dialog:** Dialog Adapter#getInitialFocusEl has been added and Adapter#trapFocus first argument is now the initialFocusEl.
+* **checkbox:** Removed `$mdc-checkbox-ui-pct` sass variable from `MDCCheckbox`
+* **menu:** Replaced adapter methods getParentElement, getSelectedElementIndex with getSelectedSiblingOfItemAtIndex, isSelectableItemAtIndex.
+* **dialog:** Dialog `Foundation#handleInteraction` has been split into two methods: `#handleClick` and `#handleKeydown`.
+* **chips:** Update mdc-chip-leading-icon-margin and mdc-chip-trailing-icon-margin mixins signatures to take only left and right margin values.
+* **menu:** The following adapter methods were removed: isFirstElementFocused, isLastElementFocused, focusFirstElement, focusLastElement. The following functionality to handle TAB on menusurface has been removed: "If TAB and last element is focused => Focus on first element", "If SHIFT + TAB and first element is focused => Focus on last element"
+* **chips:** Add the setAttr method to the chip adapter.
+* **top-app-bar:** Replaced adapter methods getParentElement, getSelectedElementIndex with getSelectedSiblingOfItemAtIndex, isSelectableItemAtIndex.
+* **dialog:** Dialog Adapter#getInitialFocusEl has been added and Adapter#trapFocus first argument is now the initialFocusEl.
+* **checkbox:** Removed `$mdc-checkbox-ui-pct` sass variable from `MDCCheckbox`
+* **menu:** Replaced adapter methods getParentElement, getSelectedElementIndex with getSelectedSiblingOfItemAtIndex, isSelectableItemAtIndex.
+* **dialog:** Dialog `Foundation#handleInteraction` has been split into two methods: `#handleClick` and `#handleKeydown`.
+* **chips:** Update mdc-chip-leading-icon-margin and mdc-chip-trailing-icon-margin mixins signatures to take only left and right margin values.
+* **menu:** New adapter methods to MDC List: `isRootFocused`. MDC Menu: Replaced adapter methods `isRootFocused`, `focusRoot` with `focusListRoot`. When using MDC List inside MDC Menu `tabindex` should be set on list root element where `role="menu"` is assigned.
+* **list:** MDCList's `listElements` component API now includes disabled list items which previously returned only enabled list items.
+* **menu:** Focus is no more set to first menu item when menu is opened. Introduced new API (`setDefaultFocusItemIndex()`) to set focus on specific menu item every time the menu is opened. Also introduced new foundation & adapter methods to incorporate this change. Please use `setDefaultFocusItemIndex(0)` method before menu open to retain previous behaviour.
+* `$mdc-top-app-bar-prominent-dense-title-bottom-padding` is renamed to `$mdc-top-app-bar-dense-prominent-title-bottom-padding`
+* **list:** removed #adapter.removeAttributeForElementIndex
+* The previously deprecated mdc-icon-toggle package has been removed; use mdc-icon-button instead.
+* **animation:** The `transformStyleProperties` array export has been removed from `mdc-animation`. Please use `getCorrectPropertyName(window, 'transform')` instead.
+* **ripple:** `getMatchesProperty()` has been removed from `@material/ripple/util` and `@material/tab-scroller/util`. Use `matches()` from `@material/dom/ponyfill` instead.
+* **feature-targeting:** The main mixins recently introduced to some packages in in v0.44.0 have been renamed from `mdc-foo` to `mdc-foo-core-styles`. (Importing baseline styles via `mdc-foo.scss` remains unaffected.)
+* **list:** The default `MDCListAdapter.notifyAction()` implementation now emits an object of type `{index: number}` rather than a primitive `number` directly.
+* **menu-surface:** `MDCMenuSurfaceAdapter.setPosition()` now expects an object with properties of type `number` rather than `string`. E.g., `setPosition({top: '5px', left: '10px'})` is now `setPosition({top: 5, left: 10})`.
+* **menu:** Replaced menu's foundation methods `handleClick` and `handleSelection` with `handleItemAction` to handle list item action (i.e., list's custom event `MDCList:action`)
+* **list:** Introduced new adapter method `getAttributeForElementIndex` to determine if target list item has `href` attribute and removed `followHref` adapter API.
+* **chips:** Adds 3 new chips adapter methods: hasLeadingIcon, getRootBoundingClientRect, and getCheckmarkBoundingClientRect. Also adds a new foundation method: getDimensions.
+* **list:** Introduced new adapter `isFocusInsideList` for MDC List for improved accessibility.
+* **snackbar:** Snackbar's DOM and APIs have changed to match the latest design guidelines. See the Snackbar documentation for more information.
+* **button:** We recommend placing each button's text label within a mdc-button__label element. This does not immediately break existing MDC Button usage, but updating is recommended to future-proof against potential upcoming changes.
+* **chips:** Add the setAttr method to the chip adapter.
+
+
+
+
+
 # [4.0.0](https://github.com/material-components/material-components-web/compare/v3.2.0...v4.0.0) (2019-11-02)
 
 
